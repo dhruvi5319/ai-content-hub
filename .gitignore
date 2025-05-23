@@ -1,0 +1,17 @@
+# Virtual environment
+venv/
+
+# Environment config
+# .env
+
+# Bytecode
+__pycache__/
+*.pyc
+
+# IDE files
+.vscode/
+.idea/
+
+# Data/logs that shouldn’t be versioned
+data/article_log.json
+data/*.log
