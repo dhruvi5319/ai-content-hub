@@ -1,0 +1,23 @@
+# FastAPI + API serving
+fastapi
+uvicorn[standard]
+
+# Hugging Face Transformers
+transformers
+torch
+
+# Web scraping
+feedparser                 # for RSS feeds
+beautifulsoup4             # for simple HTML pages
+requests                   # for non-RSS pages
+selenium                  # for JavaScript-rendered sites
+
+# HTML parser
+lxml
+
+# Scheduling / Automation
+schedule                  # for simple Python-based scheduling
+python-dotenv             # for loading config from .env
+
+# WordPress Integration
+httpx                     # preferred over requests for async; or use requests
